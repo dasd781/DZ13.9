@@ -127,7 +127,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Connections.cpp" />
     <ClCompile Include="DZ13.9.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Connections.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
